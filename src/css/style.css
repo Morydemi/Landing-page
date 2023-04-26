@@ -61,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    
+
 }
 
 .hero h2 {
@@ -92,8 +92,8 @@ body {
 
 @media (max-width: 450px) {
 
-    .hero{
-        height: 60vh;        
+    .hero {
+        height: 60vh;
     }
 
     .hero h2 {
@@ -101,7 +101,7 @@ body {
     }
 }
 
-@media (max-width: 350px) {   
+@media (max-width: 350px) {
 
     .hero h2 {
         font-size: 2.5rem;
@@ -169,17 +169,18 @@ body {
 }
 
 @media (max-width: 425px) {
-    
+
     .about {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
     }
+
     .about .item {
         text-align: center;
     }
 
     .about .image.left {
-        order: 4;  
+        order: 4;
     }
 
     .about .item {
@@ -194,11 +195,11 @@ body {
 .services {
     grid-area: services;
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
 }
 
 .services .service {
-    padding: 70px 20px; 
+    padding: 70px 20px;
     text-align: center;
 }
 
@@ -241,12 +242,13 @@ body {
     grid-area: projects;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
+
 }
 
 .projects img {
-   height: 100%;
-   transition: 0.3s;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
 
 }
 
@@ -292,7 +294,7 @@ body {
 }
 
 .footer nav {
-    margin: 50px 0; 
+    margin: 50px 0;
 
 }
 
@@ -328,6 +330,3 @@ body {
 .footer .social a:hover {
     color: #fff
 }
-
-
-
